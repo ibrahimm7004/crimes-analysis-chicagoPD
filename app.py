@@ -6,11 +6,11 @@ import plotly.io as pio
 app = Flask(__name__)
 
 # Load the CSV file with area data
-area_csv_path = "chicago_areas_avg_coords.csv"
+area_csv_path = r"static\chicago_areas_avg_coords.csv"
 areas_df = pd.read_csv(area_csv_path)
 
 # Load the crime data
-crime_data_path = "final_dataset.csv"
+crime_data_path = r"static\final_dataset.csv"
 crime_df = pd.read_csv(crime_data_path)
 
 
