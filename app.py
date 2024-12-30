@@ -2,15 +2,16 @@ from flask import Flask, render_template, request
 import pandas as pd
 import functions
 import plotly.io as pio
+import os
 
 app = Flask(__name__)
 
-# Load the CSV file with area data
-area_csv_path = r"static\chicago_areas_avg_coords.csv"
-areas_df = pd.read_csv(area_csv_path)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+area_csv_path = os.path.join(
+    BASE_DIR, "static", "chicago_areas_avg_coords.csv")
+crime_data_path = os.path.join(BASE_DIR, "static", "final_dataset.csv")
 
-# Load the crime data
-crime_data_path = r"static\final_dataset.csv"
+areas_df = pd.read_csv(area_csv_path)
 crime_df = pd.read_csv(crime_data_path)
 
 
