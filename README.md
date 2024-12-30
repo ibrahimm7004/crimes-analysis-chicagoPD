@@ -1,5 +1,11 @@
 # Chicago Crimes Analysis App
 
+## Live Application
+Experience the live app here:
+- [Chicago Crimes Analysis App](https://chicago-crimes-analysis.onrender.com)
+
+---
+
 ## Overview
 This project provides an interactive tool for analyzing crime data from Chicago, using publicly available data from 2010 to 2022. Users can input the name of an area in Chicago to explore detailed visualizations and insights about crime trends and patterns in that area and its surroundings.
 
@@ -20,12 +26,6 @@ This tool aims to make it easier to understand crime trends and empower communit
 ## Dataset
 The dataset used for this project is publicly available on Kaggle:
 - [Crimes in Chicago Dataset (2010-2022)](https://www.kaggle.com/datasets/onlyrohit/crimes-in-chicago/data)
-
-## Live Application
-Experience the live app here:
-- [Chicago Crimes Analysis App](https://chicago-crimes-analysis.onrender.com)
-
----
 
 ## How It Works
 1. The user inputs an area name in the search bar.
